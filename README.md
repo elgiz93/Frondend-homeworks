@@ -1,2 +1,2 @@
 # Frondend-homeworks
-Each brach fo each day
+Each brach for each day
