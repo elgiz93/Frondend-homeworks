@@ -1,0 +1,55 @@
+.all {
+background-color: rgb(228, 210, 186);
+width: 850px;
+margin: auto;
+}
+.name   {
+    font-size: xx-large;
+    margin-top: 40px;
+}
+.job{
+    font-size: x-large;
+}
+.mail{
+    margin-top: 10px;
+}
+.top{
+    margin-left: 20px;
+}
+.topphoto{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.blok{
+   padding: 15px;
+}
+
+.company{
+margin-top: 20px;
+font-size:x-large;
+margin-bottom: 0px;
+}
+.time{
+    margin-top: 5px;
+}
+.text{
+    margin-top: 10px;
+    width: 30vw;
+}
+.leftright{
+    display: flex;
+}
+.bashliq{
+    font-size: x-large;
+    color: blue;
+}
+.left, .right{
+    margin-top: 30px;
+    margin-left: 10px;
+    border-left: 1px dotted brown;
+}
+.lang{
+    margin-top: 20px;
+}
