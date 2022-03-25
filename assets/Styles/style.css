@@ -1,0 +1,19 @@
+body{
+    margin-left: 30%;
+}
+.allblocks{
+    text-align: center;
+    width: 50%;
+}
+.image img{
+    width: 100px;
+    border-radius: 50%
+}
+button{
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: rgb(78, 78, 247);
+    border: 1px solid rgb(78, 78, 247);
+}
