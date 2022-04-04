@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px 250px 250px 500px;
+    gap: 20px;
+}
+.grid{
+    font-size: 20px;   
+    border: 1px solid black;
+}
+.block1{
+    background-color: aqua;
+}
+.block2{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    border: 1px solid black;
+    background-color: rgb(148, 95, 209);
+}
+.block3{
+    background-color: rgb(151, 216, 200);
+}
+.block4{
+    grid-column: 2/3;
+    grid-row: 2/4;
+    border: 1px solid black;
+    background-color: rgb(148, 95, 209);
+}
+.block5{
+    background-color: rgb(246, 248, 128);
+}
+.block6{
+    background-color: rgb(211, 200, 238);
+}
+.block7{
+    background-color: rgb(211, 200, 238);
+}
+.block8{
+    grid-column: 1/3;
+    grid-row: 4/5;
+    border: 1px solid black;
+    background-color: aqua;
+}
+.block9{
+    background-color: rgb(182, 229, 243);
+}
