@@ -1,0 +1,45 @@
+.h1{
+    text-align: center;
+    margin: 30px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+#input{
+    width: 50%;
+    border-radius: 10px;
+    border:2px solid rgb(78, 84, 243);
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+#btn{
+    background-color: rgb(78, 84, 243);
+    font-size: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 10px;
+    border:2px solid rgb(78, 84, 243);
+}
+#ul{
+width: 50%;
+margin: auto;
+list-style-type:decimal;
+}
+#ul li{
+    font-size: 20px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.duymeler{
+    margin: 0px 3px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 3px 5px;
+    background-color: rgb(78, 84, 243);
+    border: 1px solid rgb(78, 84, 243);
+    cursor: pointer;
+}
