@@ -1,0 +1,124 @@
+.left_buttons{
+    margin-left: 19px;
+    font-size: 14px;
+    position: relative;
+}
+.left_buttons::after{
+    content: "";
+    position:absolute;
+    left:0px;
+    bottom: 0px;
+    width: 0%;
+    border-bottom: 1px solid black;
+}
+.left_buttons:hover::after{
+    content: "";
+    left:0px;
+    bottom: 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.right_buttons{
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.left_buttons_last{
+    border: 1px solid blue;
+    border-radius: 15px;
+    padding: 5px 9px;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+.left_buttons_last:hover{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 9px;
+}
+.h_left{
+    align-items: center;
+}
+.h_right{
+    align-items: center;
+
+}
+#header{
+    padding: 10px 0px;
+    background-color: rgb(230, 230, 238);
+}
+.section1{
+padding: 10px 0px;  
+  align-items: center;
+    position: relative;
+
+}
+.section1 .left span{
+    margin-left: 0px 30px;
+
+}
+.section1 .left img{
+    margin-right: 20px;
+}
+
+
+.section1 .right{
+    text-align: end;
+    margin: auto;
+
+}
+
+.rotate{
+transform: rotate(-180deg);
+}
+#lang{
+    cursor: pointer;
+    position: relative;
+}
+#lang_icon{
+    transition: 1s;
+}
+.lang_menu{
+clip-path: polygon(0 100%, 100% 100%, 100% 23%, 76% 23%, 66% 0, 56% 23%, 0 23%);
+position: absolute;
+display: flex;
+color: rgb(0, 0, 0);
+flex-direction: column;
+background-color: rgb(207, 205, 236);
+width: 40px;
+height: 70px;
+bottom:-70px;
+right: 10px;
+padding-top: 22px;
+font-size: 15px;
+display: none;
+z-index: 3;
+}
+.lang_menu span{
+    padding: 0px 10px;
+}
+.lang_menu span:hover{
+    background-color: rgb(193, 190, 239)
+}
+.displey_n{
+    display: block !important;
+}
+#section2{
+    display: none;
+}
+.section2 input{
+    background-color: rgb(252, 251, 251); 
+    color: #9f9f9f;
+    position: absolute;
+    z-index: 2;
+    font-size: 40px;
+    padding: 50px;
+    border: none;
+    top:0px;
+    width: 100%;
+    height: 200%;
+}
+#axtaris{
+    cursor: pointer;
+}
