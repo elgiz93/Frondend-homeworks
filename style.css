@@ -1,0 +1,24 @@
+.drag_area{
+    width: 100% !important;
+    width: 200px;
+    border: 2px solid rgb(186, 94, 94);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.box{
+    width: 15%;
+    height: 150px;
+    text-align: center;
+    background-color: aqua; 
+    margin: 10px;
+    cursor: pointer;;
+}
+#droparea{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(152, 62, 62);
+    display: flex;
+    justify-content: space-around;
+}
